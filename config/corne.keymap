@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL          &kp SV_DOUBLE_QUOTES  &kp HASH  &kp SV_DOLLAR  &kp PRCNT    &kp SV_CARET    &kp SV_SLASH  &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp SV_PLUS      &kp BSPC
-&kp LCTRL  &kp RA(NUMBER_2)  &trans                &trans    &trans         &trans       &kp LS(SV_SQT)  &kp SV_EQUAL  &kp SV_LEFT_BRACKET      &kp SV_RIGHT_BRACKET      &kp SV_ASTERISK  &kp SV_A_RING
-&kp LSHFT  &kp SV_LESS_THAN  &kp SV_GREATER_THAN   &trans    &trans         &trans       &kp UNDER       &kp PLUS      &kp SV_LEFT_BRACE        &kp SV_RIGHT_BRACE        &kp SV_PIPE      &kp SV_TILDE
-                                                   &kp LGUI  &trans         &kp SPACE    &kp RET         &trans        &kp RALT
+&kp TAB    &kp EXCL          &kp SV_DOUBLE_QUOTES  &kp HASH  &kp SV_DOLLAR  &kp PRCNT    &kp SV_CARET  &kp SV_SLASH  &kp SV_LEFT_PARENTHESIS  &kp SV_RIGHT_PARENTHESIS  &kp SV_PLUS      &kp BSPC
+&kp LCTRL  &kp RA(NUMBER_2)  &trans                &trans    &trans         &trans       &trans        &kp SV_EQUAL  &kp SV_LEFT_BRACKET      &kp SV_RIGHT_BRACKET      &kp SV_ASTERISK  &kp SV_A_RING
+&kp LSHFT  &kp SV_LESS_THAN  &kp SV_GREATER_THAN   &trans    &trans         &trans       &kp UNDER     &kp PLUS      &kp SV_LEFT_BRACE        &trans                    &kp SV_ACUTE     &kp SV_TILDE
+                                                   &kp LGUI  &trans         &kp SPACE    &kp RET       &trans        &kp RALT
             >;
         };
 
